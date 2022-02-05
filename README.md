@@ -29,7 +29,7 @@
 - :mailbox:Comment me joindre: [![Linkedin Badge](https://img.shields.io/badge/-Oscar_kanangila-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/oscar-kanangila-2a1887142/)
 - ---
 
-### :hammer_and_wrench:j'utilise et j'apprends les langages des programmations ci-dessous :
+### :hammer_and_wrench:j'utilise et j'apprends les langages des programmations et technologies ci-dessous :
 <div>
   <img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original.svg" title="HTML5" alt="HTML" width="40" height="40"/>&nbsp;
   <img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-plain-wordmark.svg"  title="CSS3" alt="CSS" width="40" height="40"/>&nbsp;
