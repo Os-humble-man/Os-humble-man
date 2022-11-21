@@ -16,9 +16,6 @@
   <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/>
 </h1>     
 </div>
-<div align="center">
-  <img src="https://media.giphy.com/media/xT0Gqn9yuw8hnPGn5K/giphy.gif" width="500" height="500"/>
-</div>
 ---
 
 ### 👨‍💻: A propos de moi : je suis développeur web front end baser<img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30">en Rdc.
