@@ -1,5 +1,5 @@
 <div id="header" align="center">
-  <img src="https://unsplash.com/photos/XJXWbfSo2f0"/>
+  <img src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"/>
     <div id="badges">
   <a href="https://www.linkedin.com/in/oscar-kanangila-2a1887142/">
     <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
