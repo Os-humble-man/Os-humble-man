@@ -1,20 +1,6 @@
 <div id="header" align="center">
   <img src="Blue Modern Personal Fashion Designer Twitter Header-modified.png"/>
-    <div id="badges">
-  <a href="https://www.linkedin.com/in/oscar-kanangila-2a1887142/">
-    <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
-  </a>
-                                                                                                                    
-  <a href="https://twitter.com/oscar_kanangila">
-    <img src="https://img.shields.io/badge/Twitter-blue?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter Badge"/>
-  </a>
-      
-</div>
-   <img src="https://komarev.com/ghpvc/?username=Os-humble-man&style=flat-square&color=blue" alt=""/>
-<h1>
-  hey guys
-  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/>
-</h1>     
+    
 </div>
 ---
 
@@ -23,7 +9,11 @@
 
 - :zap: j'aime apprendre, découvrir de nouveaux sujets relatifs à la technologie et aider à résoudre les problèmes technologiques dans ma communauté..
 
-- :mailbox:Comment me joindre: [![Linkedin Badge](https://img.shields.io/badge/-Oscar_kanangila-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/oscar-kanangila-2a1887142/)
+- :mailbox:Comment me joindre:
+-  [![Linkedin Badge](https://img.shields.io/badge/-Oscar_kanangila-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/oscar-kanangila-2a1887142/)
+-   <a href="https://twitter.com/oscar_kanangila">
+    <img src="https://img.shields.io/badge/Twitter-blue?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter Badge"/>
+  </a>
 - ---
 
 ### :hammer_and_wrench:j'utilise et j'apprends les langages des programmations et technologies ci-dessous :
