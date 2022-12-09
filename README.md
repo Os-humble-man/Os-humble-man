@@ -1,5 +1,5 @@
 <div id="header" align="center">
-  <img src="https://www.canva.com/design/DAE1m5JiBSU/udyowMQ850ZbHhUuMKcm3A/view?utm_content=DAE1m5JiBSU&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"/>
+  <img src="Blue Modern Personal Fashion Designer Twitter Header.jpg"/>
     <div id="badges">
   <a href="https://www.linkedin.com/in/oscar-kanangila-2a1887142/">
     <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
