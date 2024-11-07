@@ -26,8 +26,5 @@
 
 ### :writing_hand: Blog Posts :
 <!-- BLOG-POST-LIST:START -->
-- [Dev To](https://dev.to/oshumbleman)
-- [Hashnode](https://hashnode.com/@Oscarkng)
-
 <!-- BLOG-POST-LIST:END -->
 
