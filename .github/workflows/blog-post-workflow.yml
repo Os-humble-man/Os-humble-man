@@ -1,17 +1,28 @@
-name: Latest blog post workflow
+name: Mise à jour du README avec les derniers articles de blog
+
 on:
   schedule:
-    # Runs every hour
-    - cron: '0 * * * *'
-  workflow_dispatch:
+    - cron: '0 0 * * *' # Exécution quotidienne à minuit (vous pouvez ajuster l’horaire)
+  workflow_dispatch: # Permet de lancer le workflow manuellement
 
 jobs:
-  update-readme-with-blog:
-    name: Update this repos README with latest blog posts
+  update-readme:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: gautamkrishnar/blog-post-workflow@master
+      - name: Cloner le dépôt
+        uses: actions/checkout@v2
+
+      - name: Récupérer les derniers articles de blog
+        uses: gautamkrishnar/blog-post-workflow@v2.1.0
         with:
-          max_post_count: "4"
-          feed_list: "https://dev.to/feed/itszed0"
+          feed_list: "https://dev.to/feed/oshumbleman" 
+
+      - name: Enregistrer les modifications
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add README.md
+          git commit -m "Mise à jour des articles de blog"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
