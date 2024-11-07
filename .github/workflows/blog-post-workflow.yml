@@ -2,7 +2,7 @@ name: Mise à jour du README avec les derniers articles de blog
 
 on:
   schedule:
-    - cron: '0 0 * * *' # Exécution quotidienne à minuit (vous pouvez ajuster l’horaire)
+    - cron: '0 0 * * *' # Exécution quotidienne à minuit
   workflow_dispatch: # Permet de lancer le workflow manuellement
 
 jobs:
@@ -15,7 +15,20 @@ jobs:
       - name: Récupérer les derniers articles de blog
         uses: gautamkrishnar/blog-post-workflow@v2.1.0
         with:
-          feed_list: "https://dev.to/feed/oshumbleman" 
+          feed_list: "https://dev.to/feed/oshumbleman"
+        id: blog-posts
+
+      - name: Afficher les articles récupérés
+        run: |
+          echo "Articles récupérés : ${{ steps.blog-posts.outputs.blog_posts }}"
+
+      - name: Ajouter les articles au README
+        run: |
+          echo "## Derniers Articles de Blog" >> README.md
+          for article in ${{ steps.blog-posts.outputs.blog_posts }}
+          do
+            echo "- [${article.title}](${article.url})" >> README.md
+          done
 
       - name: Enregistrer les modifications
         run: |
