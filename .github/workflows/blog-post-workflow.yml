@@ -1,41 +1,19 @@
-name: Mise à jour du README avec les derniers articles de blog
-
+name: Latest blog post workflow
 on:
-  schedule:
-    - cron: '0 0 * * *' # Exécution quotidienne à minuit
-  workflow_dispatch: # Permet de lancer le workflow manuellement
+  schedule: # Run workflow automatically
+    - cron: '0 * * * *' # Runs every hour, on the hour
+  workflow_dispatch: # Run workflow manually (without waiting for the cron to be called), through the GitHub Actions Workflow page directly
+permissions:
+  contents: write # To write the generated contents to the readme
 
 jobs:
-  update-readme:
+  update-readme-with-blog:
+    name: Update this repo's README with latest blog posts
     runs-on: ubuntu-latest
     steps:
-      - name: Cloner le dépôt
-        uses: actions/checkout@v2
-
-      - name: Récupérer les derniers articles de blog
-        uses: gautamkrishnar/blog-post-workflow@v1.1
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Pull in dev.to posts
+        uses: gautamkrishnar/blog-post-workflow@v1
         with:
-          feed_list: "https://dev.to/feed/oshumbleman"
-        id: blog-posts
-
-      - name: Afficher les articles récupérés
-        run: |
-          echo "Articles récupérés : ${{ steps.blog-posts.outputs.blog_posts }}"
-
-      - name: Ajouter les articles au README
-        run: |
-          echo "## Derniers Articles de Blog" >> README.md
-          for article in ${{ steps.blog-posts.outputs.blog_posts }}
-          do
-            echo "- [${article.title}](${article.url})" >> README.md
-          done
-
-      - name: Enregistrer les modifications
-        run: |
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add README.md
-          git commit -m "Mise à jour des articles de blog"
-          git push
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          feed_list: "https://dev.to/feed/gautamkrishnar,https://www.gautamkrishnar.com/feed/"
