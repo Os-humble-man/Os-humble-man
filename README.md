@@ -1,32 +1,71 @@
-<div id="header" align="center">
-  <img src="Blue Modern Personal Fashion Designer Twitter Header-modified.png"/>
-    
+<div align="center">
+  <img src="banner.svg" alt="Oscar Kanangila — Software Developer" width="100%"/>
+
+  <h1>Hi, I'm Oscar Kanangila 👋</h1>
+  <p><b>Software Developer</b> · Full-stack web & mobile · Lubumbashi, DR Congo 🇨🇩</p>
+
+  <p>
+    <a href="https://www.linkedin.com/in/oscar-kanangila-2a1887142/"><img src="https://img.shields.io/badge/LinkedIn-Oscar_Kanangila-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+    <a href="https://twitter.com/oscar_kanangila"><img src="https://img.shields.io/badge/X-@oscar__kanangila-000000?style=flat-square&logo=x&logoColor=white" alt="X / Twitter"/></a>
+    <a href="https://dev.to/oshumbleman"><img src="https://img.shields.io/badge/dev.to-oshumbleman-0A0A0A?style=flat-square&logo=devdotto&logoColor=white" alt="dev.to"/></a>
+  </p>
 </div>
+
 ---
 
-### 👨‍💻: About Me : Hi there! I'm a passionate  Web Developer based in the Democratic Republic of Congo<img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30">.
-- :telescope:  Continuously enhancing my skills and staying updated on the latest in web development.
+## About me
 
-- :zap:  I'm enthusiastic about learning, exploring new tech trends, and finding innovative solutions to tech challenges in my community.
+I build business software, SaaS products and AI-powered applications — from the database to the mobile app.
 
-- :mailbox: Get in Touch:
--  [![Linkedin Badge](https://img.shields.io/badge/-Oscar_kanangila-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/oscar-kanangila-2a1887142/)
--   <a href="https://twitter.com/oscar_kanangila">
-    <img src="https://img.shields.io/badge/Twitter-blue?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter Badge"/>
-  </a>
-- ---
+- 💼 **Software Developer at Auto Lubumbashi** — I design and maintain the internal platforms used by 500+ employees across several companies in Lubumbashi, Kolwezi and Likasi.
+- 🧠 Currently exploring **RAG, LLM tooling and data science**.
+- 🎓 B.Sc. in Computer Science (System & Network Administration) — University of Lubumbashi.
+- 🌍 Former **Google Developer Student Club Lead** (2024) and in-house trainer.
+- 💬 I speak French and English.
 
-### :hammer_and_wrench:j'utilise et j'apprends les langages des programmations et technologies ci-dessous :
-<div> <img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original.svg" title="HTML5" alt="HTML" width="40" height="40"/>&nbsp; <img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-plain-wordmark.svg" title="CSS3" alt="CSS" width="40" height="40"/>&nbsp; <img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" title="JavaScript" alt="JavaScript" width="40" height="40"/>&nbsp; <img src="https://github.com/devicons/devicon/blob/master/icons/react/react-original-wordmark.svg" title="React" alt="React" width="40" height="40"/>&nbsp; <img src="https://github.com/devicons/devicon/blob/master/icons/typescript/typescript-original.svg" title="TypeScript" alt="TypeScript" width="40" height="40"/>&nbsp; <img src="https://github.com/devicons/devicon/blob/master/icons/nodejs/nodejs-original-wordmark.svg" title="NodeJS" alt="NodeJS" width="40" height="40"/>&nbsp; <img src="https://github.com/devicons/devicon/blob/master/icons/express/express-original-wordmark.svg" title="Express" alt="Express" width="40" height="40"/>&nbsp; <img src="https://github.com/devicons/devicon/blob/master/icons/mongodb/mongodb-original-wordmark.svg" title="MongoDB" alt="MongoDB" width="40" height="40"/>&nbsp; <img src="https://github.com/devicons/devicon/blob/master/icons/mysql/mysql-original-wordmark.svg" title="MySQL" alt="MySQL" width="40" height="40"/>&nbsp; <img src="https://github.com/devicons/devicon/blob/master/icons/firebase/firebase-plain-wordmark.svg" title="Firebase" alt="Firebase" width="40" height="40"/>&nbsp; <img src="https://github.com/devicons/devicon/blob/master/icons/redux/redux-original.svg" title="Redux" alt="Redux" width="40" height="40"/>&nbsp; <img src="https://github.com/devicons/devicon/blob/master/icons/npm/npm-original-wordmark.svg" title="npm" alt="npm" width="40" height="40"/>&nbsp; <img src="https://github.com/devicons/devicon/blob/master/icons/git/git-original.svg" title="Git" alt="Git" width="40" height="40"/>&nbsp; <img src="https://github.com/devicons/devicon/blob/master/icons/github/github-original-wordmark.svg" title="GitHub" alt="GitHub" width="40" height="40"/>&nbsp; <img src="https://github.com/devicons/devicon/blob/master/icons/tailwindcss/tailwindcss-plain.svg" title="Tailwind CSS" alt="Tailwind CSS" width="40" height="40"/>&nbsp; </div>
----
+## What I've built
 
-### :fire: My Stats : 
-[![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=Os-humble-man&theme=github-dark-blue&hide_border=&date_format=M%20j%5B%2C%20Y%5D)](https://git.io/streak-stats)
----
+| Project | What it does | Impact |
+|---|---|---|
+| **PeopleHub** | Multi-company HR platform — dashboards, attendance (incl. GPS), large datasets | 4+ companies, 500+ employees |
+| **Questify** | 360° evaluation & survey platform with anonymity and weighted results | ~800 employees |
+| **IT Service Ticket / IT Preventive** | Service requests and preventive maintenance tracking | 500+ pieces of equipment |
+| **Complainte Client** | Customer complaint management | 1,000+ complaints / year |
+| [**RAGify**](https://github.com/Os-humble-man/RAGify) | Chatbot that answers questions from company documentation (RAG, pgvector, streaming) | Open source |
+| [**engineering-labs**](https://github.com/Os-humble-man/engineering-labs) | Small hands-on labs to learn backend concepts (gRPC, tRPC…) | Open source |
 
-### :writing_hand: Blog Posts :
+## Tech stack
+
+**Languages**<br/>
+<img src="https://skillicons.dev/icons?i=ts,js,html,css" alt="Languages"/>
+
+**Frontend & mobile**<br/>
+<img src="https://skillicons.dev/icons?i=react,nextjs,vite,tailwind" alt="Frontend"/>
+&nbsp;React Native · Expo · Shadcn UI · TanStack Query · Zustand
+
+**Backend**<br/>
+<img src="https://skillicons.dev/icons?i=nodejs,nestjs,express,prisma" alt="Backend"/>
+&nbsp;REST · RPC · JWT · Swagger
+
+**Data & DevOps**<br/>
+<img src="https://skillicons.dev/icons?i=postgres,mysql,redis,docker,nginx,linux,githubactions,aws,git" alt="Data and DevOps"/>
+&nbsp;pgvector · PM2 · CI/CD
+
+## GitHub activity
+
+<div align="center">
+  <img src="https://streak-stats.demolab.com?user=Os-humble-man&theme=github-dark-blue&hide_border=true" alt="GitHub streak"/>
+</div>
+
+## Latest blog posts
+
 <!-- BLOG-POST-LIST:START -->
 - [Getting started with Adonis.js: A robust Node.js framework for web development](https://dev.to/oshumbleman/getting-started-with-adonisjs-a-robust-nodejs-framework-for-web-development-4ipj)
 - [10 jeux pour s’améliorer en CSS](https://dev.to/oshumbleman/10-jeux-pour-sameliorer-en-css-1o25)
 <!-- BLOG-POST-LIST:END -->
 
+---
+
+<div align="center">
+  <sub>Open to collaborations on SaaS, internal tools and AI projects — feel free to reach out on LinkedIn.</sub>
+</div>
